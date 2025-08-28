@@ -48,4 +48,7 @@ This project helped in:
 
 ## Demo Images
 
-(Add screenshots here)
+![Home Screen](images/home.png)  
+
+![Result Screen](images/result.png)  
+
