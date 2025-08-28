@@ -17,7 +17,8 @@
 ---
  Demo Images of the App :
 
-![Home Screen](Other images/demo_1.jpg)  
+<img src="images/demo_1.jpg" alt="Home Screen" width="300"/>
 
-![Result Screen](Other images/demo_1.jpg)  
+<img src="images/demo_2.jpg" alt="Result Screen" width="300"/>
+
 
