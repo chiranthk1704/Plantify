@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Plants</string>
+    <string name="app_info">
+        About This App\n
+        Welcome to our innovative Plant Species Recognition App! \n
+        This application leverages advanced ML models,including ResNet and YOLOv8, to accurately identify plant species based on leaf images.\n\n
+
+        Key Features:\n
+        1. High Accuracy Recognition: Uses deep learning models for precise plant species identification.\n
+        2. User-Friendly Interface: A simple and intuitive design makes it easy to capture or upload images.\n
+        3. Real-Time Analysis: Instantly processes images and provides detailed species information.\n
+        4. Educational Insights: Learn about various models performance and techniques.\n\n
+
+        How It Works:\n
+        1. Capture or upload an image of a plant leaf.\n
+        2. The app analyzes the image using ResNet and YOLOv8 models.\n
+        3. Results are displayed, providing the name and details of the plant species.\n\n
+
+        Technology Behind the App:\n
+        - ResNet (Residual Network): Utilized for feature extraction and accurate classification.\n
+        - YOLOv8 (You Only Look Once): Enables precise object detection to identify leaf boundaries and features.\n\n
+
+        Team Credits:\n
+        Developed by Chirag C , Chiranth k , Anirudh K , Prajwal Y .\n\n
+
+        Disclaimer:\n
+        This app is intended for educational and informational purposes. Accuracy may vary depending on image quality and model training data.\n\n
+
+        Support:\n
+        For queries or feedback, contact @support.plant
+    </string>
+
+</resources>

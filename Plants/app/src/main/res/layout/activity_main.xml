@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- App Name at the top-left with enhanced style -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Planspefy"
+        android:textColor="@color/teal_400"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/teal_200"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Centered Group of Buttons -->
+    <LinearLayout
+        android:id="@+id/button_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <!-- Camera Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_camera"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/light_green"
+            app:cornerRadius="16dp"
+            android:drawableLeft="@drawable/ic_camera_black_24dp"
+            android:text="Camera"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed" />
+
+        <!-- Upload Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_upload"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/light_green"
+            app:cornerRadius="16dp"
+            android:text="Upload"
+            android:drawableLeft="@drawable/ic_gallery_black_24dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed" />
+
+        <!-- Settings Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_INFO"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/light_green"
+            app:cornerRadius="16dp"
+            android:text="INFO"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Planspefy"
+        android:textColor="@color/teal_400"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/teal_200"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on Camera to Capture an image"
+        android:layout_centerInParent="true"
+        android:textColor="@color/teal_400"
+        android:textSize="24sp"
+        android:textStyle="italic|bold"
+        android:shadowColor="@color/teal_200"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:fontFamily="sans-serif-medium"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/app_name"
+        android:scaleType="centerCrop"
+        android:contentDescription="Captured Image"/>
+
+    <!-- Button to capture Image -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_camera"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/light_green"
+        app:cornerRadius="16dp"
+        android:text="Camera"
+        android:drawableLeft="@drawable/ic_camera_black_24dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="20dp" />
+    <!-- Button to go back to MainActivity -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_back"
+        android:layout_width="160dp"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="🏠︎ HOME"
+        app:cornerRadius="16dp"
+        android:backgroundTint="@color/light_green"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="20dp" />
+    <!--    button to analyze the image-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_analyze"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Analyze"
+        app:cornerRadius="16dp"
+        android:backgroundTint="@color/light_green"
+        android:layout_below="@id/button_back"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed" />
+</RelativeLayout>
